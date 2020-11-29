@@ -1,0 +1,23 @@
+{
+  "name": "storageBot",
+  "version": "1.0.0",
+  "description": "A Discord bot to upload files to a save-server instance.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon ./src/bot.js",
+    "start": "node ./src/bot.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.0",
+    "discord.js": "^12.4.1",
+    "dotenv": "^8.2.0",
+    "form-data": "^3.0.0",
+    "fs": "0.0.1-security",
+    "node-fetch": "^2.6.1",
+    "request": "^2.88.2"
+  }
+}
